@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <style>
+        #name{
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 2px solid blue;
+        }
+        .box1{
+            background-color: white;
+            border: 15px solid whitesmoke;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            gap: 20px;
+            
+        }
+        .box2,.box3{
+            background-color: white;
+            border: 15px solid whitesmoke;
+            padding: 10px;
+        }
+        .bio{
+            display: flex;
+            flex-direction: column;
+        }
+        span{
+            color: blue;
+        }
+    </style>
+<body>
+    <h1 style="background-color: lightblue;color: white;text-align: center;padding: 15px;margin: auto;">My Personal Bio Webpage</h1>
+    <div class="box1">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="person" id="name">
+        <div class="bio">
+        <h3 style="text-decoration: underline; width: 100%;margin: 0;">About Me</h3><br>
+        <p style="margin: 0;width: 500px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fuga minima officia laborum optio commodi, laboriosam maiores soluta accusantium. Dicta officiis odit soluta, delectus dolores pariatur aut assumenda esse eveniet?
+        </p>
+        </div>
+    </div>
+    <div class="box2">
+        <h3 style="text-decoration: underline;">My Skills</h3>
+        <ul>
+            <li>Python Programming</li>
+            <li>JavaScript & Web Development</li>
+            <li>SQL & Database</li>
+            <li>Machine Learning</li>
+        </ul>
+    </div>
+    <div class="box3">
+        <h3 style="text-decoration: underline;">Contact Me</h3>
+        <p>Email: <span>xyz@gmail.com</span></p>
+        <p>Instagram: <span>@xyz_cvb</span></p>
+        <p>Location: India</p>
+    </div>
+    <div class="footer">
+         @ 2026 Nandha singh -- All Rights Reserved
+    </div>
+</body>
+</html>
